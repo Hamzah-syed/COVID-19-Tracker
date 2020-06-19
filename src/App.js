@@ -1,18 +1,21 @@
-import React from 'react';
+import React from "react";
 //css
-import './App.css';
-import './css/tailwind'
+import "./css/App.css";
+import "./css/tailwind.css";
 
 //layout
-import Header from './components/layout/header'
-import Footer from './components/layout/footer'
+import Header from "./components/layout/Header";
+import Footer from "./components/layout/Footer";
+
+//PAGES
+import Home from "./pages/Home";
 
 function App() {
   return (
     <div className="App">
-      
-      <Header/>
-      <Footer/>
+      <Header />
+      <Home />
+      <Footer />
     </div>
   );
 }
