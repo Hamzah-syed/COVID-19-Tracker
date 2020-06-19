@@ -9,10 +9,10 @@ const Header = () => {
           <span className="ml-3 text-xl">KOVID-19</span>
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <button className="mr-5 text-gray-400 hover:text-white duration-700">
+          <button className="mr-5 text-gray-400 hover:text-white duration-700 focus:outline-none">
             Home
           </button>
-          <button className="mr-5 text-gray-400 hover:text-white duration-700">
+          <button className="mr-5 text-gray-400 hover:text-white duration-700 focus:outline-none">
             About
           </button>
           <button className="inline-flex items-center text-white bg-indigo-500 border-0 py-2 px-4 focus:outline-none hover:bg-indigo-700 rounded text-base  md:mt-0 duration-700 ">
