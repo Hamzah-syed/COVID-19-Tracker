@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HomeHeroContent = () => {
   return (
@@ -14,9 +15,11 @@ const HomeHeroContent = () => {
         550,000 cases and around 25,000 deaths worldwide
       </p>
       <div className="flex justify-center w-full ">
-        <button className=" text-white bg-indigo-500 border-0 py-3 px-4 focus:outline-none hover:bg-indigo-700 rounded text-base  md:mt-0 duration-700 w-7/12 lg:w-full sm:max-w-xs ">
-          More Details
-        </button>
+        <Link to="/about">
+          <button className=" text-white bg-indigo-500 border-0 py-3 px-4 focus:outline-none hover:bg-indigo-700 rounded text-base  md:mt-0 duration-700 w-7/12 lg:w-full sm:max-w-xs ">
+            More Details
+          </button>
+        </Link>
       </div>
     </div>
   );
