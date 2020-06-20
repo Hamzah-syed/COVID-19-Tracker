@@ -5,7 +5,7 @@ import "./css/App.css";
 import "./css/tailwind.css";
 
 //layout
-import Header from "./components/layout/Header";
+import Header from "./components/layout/header";
 import Footer from "./components/layout/Footer";
 
 //PAGES

@@ -55,12 +55,12 @@ const Header = () => {
                 </button>
               </Link>
               <Link to="/searchprovince">
-              <button
-                onClick={() => setToggle(!toggle)}
-                className="inline-flex w-full items-center text-gray-700  border-0 py-2 px-4 focus:outline-none hover:bg-indigo-500 hover:text-white   md:mt-0 duration-300 "
-              >
-                Provinces
-              </button>
+                <button
+                  onClick={() => setToggle(!toggle)}
+                  className="inline-flex w-full items-center text-gray-700  border-0 py-2 px-4 focus:outline-none hover:bg-indigo-500 hover:text-white   md:mt-0 duration-300 "
+                >
+                  Provinces
+                </button>
               </Link>
             </div>
           </div>
