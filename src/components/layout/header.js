@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Logo from "../../Images/logo.png";
 
 const Header = () => {
   const [toggle, setToggle] = useState(true);
@@ -8,7 +9,7 @@ const Header = () => {
     <header className="text-gray-500 bg-gray-900 body-font w-full fixed shadow-2xl z-30">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-          <img src="https://img.icons8.com/nolan/64/coronavirus.png" />
+          <img src={Logo} />
           <span className="ml-3 text-xl">KOVID-19</span>
         </a>
         <nav className="md:ml-auto relative flex flex-wrap items-center text-base justify-center">
