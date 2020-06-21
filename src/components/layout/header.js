@@ -8,10 +8,12 @@ const Header = () => {
   return (
     <header className="text-gray-500 bg-gray-900 body-font w-full fixed shadow-2xl z-30">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-          <img src={Logo} />
-          <span className="ml-3 text-xl">KOVID-19</span>
-        </a>
+        <Link to="/">
+          <button className="flex title-font font-medium items-center text-white mb-4 md:mb-0 focus:outline-none ">
+            <img src={Logo} alt="covid-19" />
+            <span className="ml-3 text-xl">KOVID-19</span>
+          </button>
+        </Link>
         <nav className="md:ml-auto relative flex flex-wrap items-center text-base justify-center">
           <Link to="/">
             <button className="mr-5 text-gray-400 hover:text-white duration-700 focus:outline-none">

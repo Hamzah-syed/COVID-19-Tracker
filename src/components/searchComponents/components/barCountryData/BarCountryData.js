@@ -1,6 +1,6 @@
 import React from "react";
 import ReactApexChart from "react-apexcharts";
-import BarCountryDataContent from "./BarCountryDataContent";
+
 
 const BarCountryData = ({
   countryCrdData: { confirmed, recovered, deaths },

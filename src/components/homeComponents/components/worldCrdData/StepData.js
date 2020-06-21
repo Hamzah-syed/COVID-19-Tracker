@@ -1,14 +1,14 @@
-import React, { useState, useEffect, Children } from "react";
+import React, { useState, useEffect } from "react";
 import StepDataContent from "./StepDataContent";
 
 const StepData = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
   const [stepdata, setstepdata] = useState([]);
 
   useEffect(() => {
-    demo();
+    StepContent();
   }, [confirmed]);
 
-  const demo = () => {
+  const StepContent = () => {
     if (!confirmed) {
       return "loading...";
     }
@@ -37,7 +37,7 @@ const StepData = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
         title: "Number of deaths caused by COVID-19: ",
         icon: "M22 12h-4l-3 9L9 3l-3 9H2",
         lastUpdate: lastUpdate,
-        value: recovered.value,
+        value: deaths.value,
       },
     ]);
   };
@@ -52,5 +52,3 @@ const StepData = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
 };
 
 export default StepData;
-
- 

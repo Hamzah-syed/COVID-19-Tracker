@@ -56,7 +56,3 @@ const ProviceDataTabel = ({ provinceData }) => {
 };
 
 export default ProviceDataTabel;
-
-{
-  /* */
-}

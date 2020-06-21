@@ -17,6 +17,7 @@ const AbutHeroContent = () => {
           <div class="flex ">
             <a
               href="https://en.wikipedia.org/wiki/COVID-19_pandemic"
+              rel="noopener noreferrer"
               target="_blank"
               class=" text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
             >

@@ -5,18 +5,17 @@ const Footer = () => {
   return (
     <footer className="text-gray-500 bg-gray-900 body-font">
       <div className="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-        <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
-          <img src={Logo} />
+        <div className="flex title-font font-medium items-center md:justify-start justify-center text-white">
+          <img src={Logo} alt="logo" />
           <span className="ml-3 text-xl">KOVID-19</span>
-        </a>
+        </div>
         <p className="text-sm text-gray-600 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
           © KOVID-19 —
           <a
             href="https://www.facebook.com/profile.php?id=100011483407599"
             target="_blank"
-            className="text-gray-500 ml-1"
-            target="_blank"
             rel="noopener noreferrer"
+            className="text-gray-500 ml-1"
           >
             @Hamzah Syed
           </a>
@@ -25,6 +24,7 @@ const Footer = () => {
           <a
             href="https://www.facebook.com/profile.php?id=100011483407599"
             target="_blank"
+            rel="noopener noreferrer"
             className="text-gray-600"
           >
             <svg
@@ -41,6 +41,7 @@ const Footer = () => {
           <a
             href="https://twitter.com/hamzah64949063"
             target="_blank"
+            rel="noopener noreferrer"
             className="ml-3 text-gray-600"
           >
             <svg
@@ -57,6 +58,7 @@ const Footer = () => {
           <a
             href="https://www.instagram.com/hamzah_rpc/"
             target="_blank"
+            rel="noopener noreferrer"
             className="ml-3 text-gray-600"
           >
             <svg
@@ -75,6 +77,7 @@ const Footer = () => {
           <a
             href="https://github.com/Hamzah-syed"
             target="_blank"
+            rel="noopener noreferrer"
             className="ml-3 text-gray-600"
           >
             <svg
