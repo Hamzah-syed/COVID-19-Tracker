@@ -16,7 +16,7 @@ const HomeHeroContent = () => {
       </p>
       <div className="flex justify-center w-full ">
         <Link to="/about">
-          <button className=" text-white bg-indigo-500 border-0 py-3 px-4 focus:outline-none hover:bg-indigo-700 rounded text-base  md:mt-0 duration-700 w-7/12 lg:w-full sm:max-w-xs ">
+          <button className=" text-white bg-indigo-500 border-0 py-3 px-4 focus:outline-none hover:bg-indigo-700 rounded text-base  md:mt-0 duration-700 w-full lg:w-full sm:max-w-xs ">
             More Details
           </button>
         </Link>
