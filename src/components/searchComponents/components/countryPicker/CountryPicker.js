@@ -25,7 +25,7 @@ const CountryPicker = ({ setCountryName, setContryNamePro, color }) => {
       }
     };
     fetchCountries();
-  }, [cName]);
+  }, [cName, setContryNamePro, setCountryName]);
 
   return (
     <div className="container mx-auto md:w-1/3 px-3 mb-6 md:mb-0 ">

@@ -33,7 +33,7 @@ const CardCountryData = ({
       ]);
     };
     fetchCountryCrd();
-  }, [confirmed]);
+  }, [confirmed, deaths.value, recovered.value]);
 
   return (
     <section className="text-gray-700 body-font">

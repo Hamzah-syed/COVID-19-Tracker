@@ -4,14 +4,13 @@ import StepDataContent from "./StepDataContent";
 const StepData = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
   const [stepdata, setstepdata] = useState([]);
 
-  useEffect(() => {
-    StepContent();
-  }, [confirmed]);
-
   const StepContent = () => {
     if (!confirmed) {
       return "loading...";
     }
+    useEffect(() => {
+      StepContent();
+    }, [confirmed, StepContent]);
 
     setstepdata([
       {
