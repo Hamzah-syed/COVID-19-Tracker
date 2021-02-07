@@ -39,7 +39,7 @@ const StepData = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
   };
   useEffect(() => {
     StepContent();
-  }, [confirmed, StepContent]);
+  }, [confirmed]);
 
   return (
     <div className="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
