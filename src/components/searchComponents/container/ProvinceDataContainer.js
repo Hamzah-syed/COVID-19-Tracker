@@ -51,7 +51,7 @@ const ProviceDataContainer = () => {
       }
     };
     fetchCountryCrd();
-  }, [showBar]);
+  }, [showBar, contryNamePro]);
 
   return (
     <div className="">
