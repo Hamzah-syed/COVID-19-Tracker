@@ -8,9 +8,6 @@ const StepData = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
     if (!confirmed) {
       return "loading...";
     }
-    useEffect(() => {
-      StepContent();
-    }, [confirmed, StepContent]);
 
     setstepdata([
       {
@@ -40,6 +37,9 @@ const StepData = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
       },
     ]);
   };
+  useEffect(() => {
+    StepContent();
+  }, [confirmed, StepContent]);
 
   return (
     <div className="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
